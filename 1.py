@@ -1,3 +1,7 @@
-a = int(input "введите целое а")
-a = a + 2
-print "a= "
+name = "Куликов"
+surname = "Вадим"
+year = 2003
+print(name + "_" + surname + "_" + str(year))
+name, surname = surname, name
+year += 60
+print(name + "_" + surname + "_" + str(year))
